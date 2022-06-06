@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+    <style type="text/css">
+
+        div{
+            width: 100%;
+        }
+        .section1{
+            /* width: 800px; */
+            height: 100px;
+            background-color: aqua;
+        }
+
+        .section2{
+            /* width: 800px; */
+            height: 100px;
+            background-color: bisque;
+        }
+
+        @media screen and (min-width: 480px) {
+            .section1{
+                background-color: rgb(100, 100, 255);
+            }
+            .section2{
+                background-color: rgb(179, 255, 87);
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            div{
+                float: left;
+                width: 50%;
+            }
+            .section1{
+                background-color: aqua;
+            }
+            .section2{
+                background-color: bisque;
+            }
+
+        }
+
+        @media screen and (min-width: 1080px) {
+            .section1{
+                background-color: blue;
+            }
+            .section2{
+                background-color: blueviolet;
+            }
+        }
+    </style>    
+</head>
+<body>
+    <div class="section1"></div>
+    <div class="section2"></div>
+
+</body>
+</html>
